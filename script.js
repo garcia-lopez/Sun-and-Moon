@@ -2,6 +2,8 @@ function darkMode() {
     const moon = document.getElementById('celestialBody');
     const body_background = document.getElementById('container');
     const centro = document.getElementById('centro');
+    const windowWidth = window.innerWidth;
+    console.log(windowWidth);
 
     if (moon.classList.contains('sun')) {
         moon.style.animation = 'DarkNight 1s linear';

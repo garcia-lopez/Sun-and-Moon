@@ -163,8 +163,8 @@ main {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .moon, .sun {
-        height: 40%;
-        width: 70%;
+        height: 80%;
+        width: 40%;
     }
 
 
@@ -202,3 +202,39 @@ main {
         width: 30%;
     }
 }
+
+@media (min-width: 1024px) and (max-width: 1600px) {
+    .moon, .sun {
+        height: 80%;
+        width: 40%;
+    }
+
+
+    .small, .center {
+        height: 60%;
+        width: 25%;
+    }
+
+    .clouds {
+        height: 15%;
+        width: 15%;
+    }
+  }
+
+  @media (max-width: 867px) {
+    .moon, .sun {
+        height: 80%;
+        width: 60%;
+    }
+
+
+    .small, .center {
+        height: 60%;
+        width: 40%;
+    }
+
+    .clouds {
+        height: 15%;
+        width: 15%;
+    }
+  }
