@@ -163,13 +163,13 @@ main {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .moon, .sun {
-        height: 50%;
+        height: 40%;
         width: 50%;
     }
 
 
     .small, .center {
-        height: 40%;
+        height: 30%;
         width: 40%;
     }
 
@@ -178,8 +178,8 @@ main {
 
     }
     .clouds {
-        height: 20%;
-        width: 20%;
+        height: 10%;
+        width: 10%;
     }
     
 }
