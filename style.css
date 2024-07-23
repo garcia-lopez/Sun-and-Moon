@@ -187,18 +187,18 @@ main {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .moon, .sun {
-        height: 80%;
+        height: 30%;
         width: 40%;
     }
 
 
     .small, .center {
-        height: 60%;
+        height: 20%;
         width: 25%;
     }
 
     .clouds {
         height:15%;
-        width: 15%;
+        width: 30%;
     }
 }
