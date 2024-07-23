@@ -105,35 +105,6 @@ main {
     }
 }
 
-@keyframes SunnyDayCenterSmall {
-    from {
-        transform: translateX(50%); 
-        background-color: #ece75f;
-        
-    }
-    to {
-        transform: translateX(0%); 
-        background-color: #f7f5bc;
-        
-    }
-}
-
-@keyframes DarkNightCenterSmall {
-    from {
-        transform: translateX(-50%); 
-        background-color: #f7f5bc;
-       
-    }
-    to {
-        transform: translateX(0%); 
-        background-color: #2B124C;
-        
-
-    }
-}
-
-
-
 .moon:hover, .sun:hover, .small:hover, .center:hover {
     cursor: pointer;
 }
